@@ -1,1 +1,87 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-size: 28px;
+}
+
+nav {
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 16px;
+  height: 64px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul li {
+  padding: 16px;
+}
+
+nav button {
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+}
+
+.container {
+  width: 100%;
+  height: 80vh;
+}
+
+.container .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.container .hero-intro {
+  width: 50%;
+  padding: 16px;
+  margin: 64px;
+  line-height: 2;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .hero-end {
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+.container .hero .bg-img {
+  width: 50%;
+}
+
+.container .hero .bg-img img {
+  max-width: 100%;
+  min-height: 100%;
+  border-radius: 400px 300px 100px 300px;
+}
+
+.container .footer {
+  padding: 16px;
+  margin-left: 64px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=styles.css.map */
