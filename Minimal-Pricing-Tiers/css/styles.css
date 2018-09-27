@@ -1,0 +1,38 @@
+/*****************************
+  BASE SETUP
+*****************************/
+
+html {
+  box-sizing: border-box; /* use IE box model */
+}
+
+*, *:before, *:after {
+  box-sizing: inherit; /* inherit allows for easy creation of a new box model context further down the tree */
+}
+
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; /* smoother rendering of fonts */
+  background-color: rgb(245,245,245);
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.price-box {
+  background-color: rgb(255,255,255);
+  min-height: 200px;
+  margin: 20px 2px 0px 0px;
+  width: 200px;
+  padding: 16px;
+  text-align: center;
+}
+
+h1{
+  text-transform: uppercase;
+}
+
+.cost{
+  font-size: 80px;
+}
