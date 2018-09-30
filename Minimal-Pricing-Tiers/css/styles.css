@@ -8,6 +8,7 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit; /* inherit allows for easy creation of a new box model context further down the tree */
+  font-weight: 300;
 }
 
 
@@ -18,21 +19,60 @@ body {
   display: flex;
   justify-content: center;
   font-family: 'Roboto', sans-serif;
+
 }
 
 .price-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(255,255,255);
   min-height: 200px;
-  margin: 20px 2px 0px 0px;
-  width: 200px;
+  margin: 100px 2px 0px 0px;
+  width: 250px;
   padding: 16px;
   text-align: center;
+  line-height: 2;
+  font-weight: 300;
+}
+
+.price-box:hover {
+  transform: scale(1.1);
+  bottom: 20px;
+  transition-duration: 300ms;
+  box-shadow: 1px 1px 30px gray;
 }
 
 h1{
   text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(59,71,80);
 }
 
 .cost{
-  font-size: 80px;
+  font-size: 60px;
+  color: rgb(87,164,255);
+  font-weight: 300;
+}
+
+.text-style{
+  text-align: justify;
+  margin: 0 auto;
+  min-height: 160px;
+}
+
+.btn{
+  color: rgb(255,255,255);
+  background-color: rgb(87,164,255);
+  width: 100px;
+  height: 30px;
+  margin-left: 18px;
+  border: none;
+  border-radius: 1px;
+}
+
+.dollar{
+  font-size: 16px;
 }
